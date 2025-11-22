@@ -1,0 +1,36 @@
+### Node / TypeScript ###
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+### Environment / secrets ###
+.env
+.env.*
+secrets/
+keys/
+**/*-key.json
+**/service-account-*.json
+
+### Logs ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+### OS / Editor ###
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+
+### Firebase / GCP ###
+.firebaserc
+firebase-debug.log
+functions/node_modules/
+
+### Docker ###
+docker-compose.override.yml
+/secrets/
