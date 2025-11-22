@@ -1,0 +1,96 @@
+bindings:
+- members:
+  - serviceAccount:smartvendor-service@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/aiplatform.user
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-artifactregistry.iam.gserviceaccount.com
+  role: roles/artifactregistry.serviceAgent
+- members:
+  - serviceAccount:589326169815@cloudbuild.gserviceaccount.com
+  role: roles/cloudbuild.builds.builder
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-cloudbuild.iam.gserviceaccount.com
+  role: roles/cloudbuild.serviceAgent
+- members:
+  - serviceAccount:service-589326169815@gcf-admin-robot.iam.gserviceaccount.com
+  role: roles/cloudfunctions.serviceAgent
+- members:
+  - serviceAccount:service-589326169815@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-589326169815@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/datastore.user
+- members:
+  - serviceAccount:589326169815-compute@developer.gserviceaccount.com
+  - serviceAccount:589326169815@cloudservices.gserviceaccount.com
+  - serviceAccount:smartvendor-476619@appspot.gserviceaccount.com
+  - serviceAccount:smartvendor-service@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/editor
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-firebase.iam.gserviceaccount.com
+  role: roles/firebase.managementServiceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-fbsvc@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/firebase.sdkAdminServiceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-fbsvc@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/firebaseappcheck.admin
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-firebaseappcheck.iam.gserviceaccount.com
+  role: roles/firebaseappcheck.serviceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-fbsvc@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/firebaseauth.admin
+- members:
+  - serviceAccount:service-589326169815@firebase-rules.iam.gserviceaccount.com
+  role: roles/firebaserules.system
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-firebasestorage.iam.gserviceaccount.com
+  role: roles/firebasestorage.serviceAgent
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-firestore.iam.gserviceaccount.com
+  role: roles/firestore.serviceAgent
+- members:
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/generativelanguage.serviceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-fbsvc@smartvendor-476619.iam.gserviceaccount.com
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/iam.serviceAccountTokenCreator
+- members:
+  - serviceAccount:589326169815-compute@developer.gserviceaccount.com
+  role: roles/iam.serviceAccountUser
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-identitytoolkit.iam.gserviceaccount.com
+  role: roles/identitytoolkit.serviceAgent
+- members:
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/ml.serviceAgent
+- members:
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  - user:ayomide@codematic.io
+  - user:ericomartin.0785@gmail.com
+  role: roles/owner
+- members:
+  - serviceAccount:service-589326169815@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+- members:
+  - user:pamilerin.idowu@codematic.io
+  role: roles/resourcemanager.projectOwnerInvitee
+- members:
+  - serviceAccount:service-589326169815@serverless-robot-prod.iam.gserviceaccount.com
+  role: roles/run.serviceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-fbsvc@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/storage.admin
+- members:
+  - serviceAccount:gemini-sa@smartvendor-476619.iam.gserviceaccount.com
+  role: roles/storage.objectAdmin
+- members:
+  - serviceAccount:589326169815-compute@developer.gserviceaccount.com
+  role: roles/storage.objectViewer
+etag: BwZDpZoh8ZM=
+version: 1
