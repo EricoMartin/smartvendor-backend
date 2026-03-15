@@ -63,7 +63,7 @@ exports.updateAnalyticsOnReceiptCreate = (0, firestore_1.onDocumentCreated)({
     // ----------------------------
     const dayKey = new Date().toISOString().split("T")[0];
     const dailySales = analytics.dailySales || {};
-    dailySales[dayKey] = (dailySales[dayKey] || 0) + totalAmount;
+    dailySales[dayKey] = (dailySales[dayKey] || 0);
     const topItems = analytics.topItems || [];
     // FIX: items use "item" not "name"
     items.forEach((item) => {
